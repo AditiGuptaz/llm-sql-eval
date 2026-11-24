@@ -1,0 +1,9 @@
+
+# LLM-SQL-EVAL dependencies
+# sqlite3, csv, json, re, os, collections are built into Python, no install needed.
+ 
+pandas                 # db.py, schema_extractor.py, evaluator.py, main.py
+python-dotenv          # main.py, first_test.py (loads OPENROUTER_API_KEY from .env)
+langchain-openrouter   # main.py, first_test.py (ChatOpenRouter)
+langchain-core         # main.py, first_test.py (SystemMessage, HumanMessage)
+ 

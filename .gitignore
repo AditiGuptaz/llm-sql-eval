@@ -1,0 +1,15 @@
+# secrets - never commit your API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# raw Kaggle data and the database built from it (rebuild with db.py)
+data/
+*.db
+
+# local backups
+eval_results_backup.csv
+.DS_Store
